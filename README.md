@@ -1,4 +1,5 @@
 # SauceDemo Test Automation Project
+![CI](https://github.com/TayfunYaman/saucedemo-automation/actions/workflows/ci.yml/badge.svg)
 
 ## Tech Stack
 - Python 3.10
