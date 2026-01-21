@@ -24,6 +24,7 @@ def driver():
     options.add_argument("--disable-password-manager-reauthentication")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--headless=new")
 
     prefs = {
         "credentials_enable_service": False,
