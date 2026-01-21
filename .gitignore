@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# PyCharm
+.idea/
+
+# Reports
+*.html
+reports/
+
+# OS
+.DS_Store
