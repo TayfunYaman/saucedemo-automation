@@ -30,4 +30,13 @@ jobs:
 
     - name: Run pytest
       run: |
-        pytest --disable-warnings -v
+        pytest --disable-warnings -v \
+               --html=report.html \
+               --self-contained-html
+
+    - name: Upload pytest HTML report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: pytest-report
+        path: report.html
